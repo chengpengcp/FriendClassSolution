@@ -1,14 +1,23 @@
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+/****************************************************************************************
+ * 文  件  名: pch.h
+ * 创  建  人: 程鹏
+ * 创建 时间 : 2019 年 1 月 11 日
+ * 描      述: 包含系统头文件以及自定义头文件
+ * 20190111
+ ****************************************************************************************/
+#ifndef _PCH_H_
+#define _PCH_H_
 
-#ifndef PCH_H
-#define PCH_H
+ /* 系统头文件 */
+#include <stdio.h>
 
-// TODO: add headers that you want to pre-compile here
 
-#endif //PCH_H
+
+
+
+/* 自定义头文件 */
+
+
+
+#endif /* _PCH_H_ */
+
